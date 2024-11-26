@@ -10,8 +10,6 @@ export default function NoteInput({ addNote }) {
     const text = e.target.value;
     if (text.length < max) {
       setTitle(text);
-    } else {
-      setTitle(text);
     }
 
     const limit = document.querySelector("p");
